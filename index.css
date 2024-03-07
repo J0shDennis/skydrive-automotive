@@ -1,7 +1,7 @@
 
 .image1 {
-    width: 200px;
-    height:150px;
+    width: 350px;
+    height:225px;
 margin:auto}
 
 .image2 {
@@ -15,6 +15,7 @@ margin:auto}
 
 .card {
     height: 100%;
+    width: 275px;
   }
   .card-body {
     display: flex;
@@ -22,11 +23,12 @@ margin:auto}
     align-items: center;
   }
   .btn {
-    width: 100px;
+    width: 125px;
   }
   .container {
     padding-left: 5px;
     padding-right: 5px;
+    align-items: center;
   }
   .row {
     margin-left: -5px;
@@ -37,8 +39,8 @@ margin:auto}
     padding-right: 5px;
   }
   .card-img {
-    max-width: 100%;
-    height: auto;
+    width: 275px;
+    max-height: 100%;
   }
 
   .footer {
@@ -74,4 +76,10 @@ margin:auto}
     .carousel-container {
         display: flex;
         justify-content: center;
+      }
+
+      .carousel-item img {
+        max-height: 700px; /* Adjust the max-height */
+        width: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center horizontally */
       }
